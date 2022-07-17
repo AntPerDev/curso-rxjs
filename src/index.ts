@@ -1,8 +1,7 @@
-import { Observable, Observer } from 'rxjs';
+import { Observable, Observer, Subject } from 'rxjs';
 
-const observer:Observer<any>= {
-    next: value => console.log('Siguiente [next]: ',value ),
-    error: error => console.warn('error [obs]:', error),
-    complete:()=> console.info('Completador [obs]')
+const observer: Observer<any> = {
+    next: value => console.log('next: ', value),
+    error: error => console.warn('error: ', error),
+    complete: () => console.info('Completado')
 }
-
