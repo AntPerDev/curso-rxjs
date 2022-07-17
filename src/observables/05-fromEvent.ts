@@ -2,6 +2,8 @@ import {fromEvent} from 'rxjs';
 
 /**
  * Eventos del DOM
+ *  Función fromEvent:
+ * Permite crear eventos en función de un eventTarget
  */
 
 const src1$ = fromEvent<MouseEvent>(document,'click');
