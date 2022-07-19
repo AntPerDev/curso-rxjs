@@ -1,5 +1,4 @@
 import { Observable, Observer, Subject } from 'rxjs';
-import { isTypeOnlyImportOrExportDeclaration } from 'typescript';
 
 const observer: Observer<any> = {
     next: value => console.log('next: ', value),
