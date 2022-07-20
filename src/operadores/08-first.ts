@@ -6,8 +6,6 @@
  */
 
 
-
-
 import { first, map, take, tap } from 'rxjs/operators';
 import { fromEvent } from 'rxjs';
 
