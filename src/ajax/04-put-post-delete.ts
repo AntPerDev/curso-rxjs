@@ -31,4 +31,4 @@ ajax({
         nombre: 'Fernando'
     }
 
-}).subscribe( console.log)
+}).subscribe( console.log )
